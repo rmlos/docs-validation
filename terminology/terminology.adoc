@@ -1,0 +1,2149 @@
+# Terminology
+:toc:
+
+An OutSystems terminology list with definitions and additional info.
+
+
+
+=== AAB
+
+`[MABS]` Android App Bundle
+
+
+
+
+=== Action
+
+`[Service Studio]` an element with OutSystems logic, in a generic sense
+
+
+
+[%collapsible]
+.Example for "Action"
+====
+_Once the app is running, the Block triggers the Actions in its parent Screen and passes the parameters. -- Docs_
+====
+
+
+
+TIP: If possible, specify which Action you refer to, to avoid confusion.
+
+
+
+
+=== Aggregate
+
+`[Service Studio]` element to fetch, filter, and sort data from a database
+
+
+
+[%collapsible]
+.Example for "Aggregate"
+====
+_Fetch data using an optimized query. Aggregates can load data from the server of the local database, and they support combining several Entities and advanced filtering. -- Docs_
+====
+
+
+
+
+=== Aggregate editor
+
+`[Service Studio]` a window in Service Studio to view, filter, and sort data that an Aggregate returns
+
+
+
+[%collapsible]
+.Example for "Aggregate editor"
+====
+_Drag an Aggregate from the Data tab to the Aggregate editor. -- Docs_
+====
+
+
+=== ALM
+
+application life cycle management
+
+
+=== API
+
+application programming interface
+
+
+
+
+=== APK
+
+`[MABS]` Android Application Package
+
+
+=== app
+
+any app, including an app created with OutSystems, in a generic meaning
+
+
+
+
+=== App
+
+`[Service Studio]` any app that developers create in OutSystems
+
+
+
+
+=== app module
+
+`[Service Studio]` See: Module
+
+
+
+
+=== App Template
+
+`[Service Studio]` template that contains basic elements for an instance of an App Type
+
+
+
+NOTE: App Template joins one or more Modules. For example, MyApp can be an App based on Reactive Web App, and it consists of one Reactive Module. Corresponds to a project template in other languages.  There are built-in and custom App Templates.
+
+
+
+[%collapsible]
+.Example for "App Template"
+====
+_The Theme of the target module is determined by the Theme defined in the App Template.  -- How Screen Templates work_
+====
+
+
+
+
+=== App Type
+
+`[Service Studio]` category of an OutSystems app
+
+
+
+NOTE: There are three types of apps in OutSystems: Reactive Web App, Mobile App, and the legacy Traditional Web App.
+
+
+=== application
+
+See: app
+
+
+=== Application
+
+See: App
+
+
+
+
+=== application module
+
+`[Service Studio]` See: Module
+
+
+
+
+=== Attribute
+
+`[Service Studio]` label for an Entity in Aggregates
+
+
+
+
+=== Attribute
+
+`[Service Studio]` Entity Attribute
+
+
+
+
+=== beta
+
+`[product release]` release that will soon become a generally available release
+
+
+
+[%collapsible]
+.Example for "beta"
+====
+_We are happy to announce that AI-Assisted Development is now available for everyone, in Service Studio beta. -- Forum_
+====
+
+
+
+
+=== Beta
+
+`[Service Studio]` Service Studio Beta
+
+
+
+[%collapsible]
+.Example for "Beta"
+====
+_Be an early adopter and try our Beta -- Downloads_
+====
+
+
+
+
+=== Blank
+
+`[OutSystems UI]` a module without user interface or logic
+
+
+
+NOTE: Service Studio doesn't recognize the concept of "Blank module" like OutSystems UI. Bank module is any module without Theme.
+
+
+
+[%collapsible]
+.Example for "Blank"
+====
+_When adding a new module in Service Studio, the list has Blank._
+====
+
+
+
+
+=== Block
+
+`[Service Studio]` element for defining reusable parts of UI in Screens
+
+
+
+[%collapsible]
+.Example for "Block"
+====
+_Blocks use events to communicate changes to the parent screen/block or to another block. -- Docs_
+====
+
+
+=== BPM
+
+Business Process Management
+
+
+
+[%collapsible]
+.Example for "BPM"
+====
+_If you're a developer, you've probably built an application that uses some sort of workflow automation. Whether itâ€™s approval logic, parallel processes, or dynamic logic, these days, at least some sort of business process management (BPM) is integrated into a lot of applications. -- Blog_
+====
+
+
+
+
+=== BPT
+
+`[Service Studio]` Business Process Technology
+
+
+
+[%collapsible]
+.Example for "BPT"
+====
+_Use OutSystems Business Process Technology (BPT) to design and manage your business processes and integrate them into your applications. -- Docs_
+====
+
+
+
+
+=== built-in App Template
+
+`[Service Studio]` App Template that comes with the default OutSystems installation
+
+
+
+NOTE: One of the default App Templates in OutSystems. You can select it in the New Application window when you create a new app. In OutSystems 11, these are Reactive Web App, Phone App, Tablet App, Traditional Web, and Service.
+
+
+
+[%collapsible]
+.Example for "built-in App Template"
+====
+_Development Environment allows you to feel the speed of visual coding and a world of integrations by packing Service Studio and Integration Studio together. -- Downloads_
+====
+
+
+=== business process
+
+Process
+
+
+
+[%collapsible]
+.Example for "business process"
+====
+_Master Class on Modeling Business Processes (BPT). You'll learn how to build, run, and debug a business process. -- Learn_
+====
+
+
+=== Business Process Management
+
+practice of designing, executing, monitoring and optimizing business processes
+
+
+
+[%collapsible]
+.Example for "Business Process Management"
+====
+_Business process management is about conducting business in the most efficient way possible. That can mean optimizing resource allocation, eliminating bottlenecks, reducing process duplication, speeding up transactions, etc.  -- Blog_
+====
+
+
+
+
+=== Business Process Technology
+
+`[Service Studio]` tool to manage business processes in an organization
+
+
+
+[%collapsible]
+.Example for "Business Process Technology"
+====
+_Use OutSystems Business Process Technology (BPT) to design and manage your business processes and integrate them into your applications. -- Docs_
+====
+
+
+=== Cascading Style Sheets
+
+style sheet programming language
+
+
+
+
+=== Checkbox
+
+`[Service Studio]` widget that lets users select or deselect an option
+
+
+
+[%collapsible]
+.Example for "Checkbox"
+====
+_Select the Checkbox widget, and on the Properties tab, from the Variable drop-down, select the local variable you just created (in this example, IsToggled). -- Docs_
+====
+
+
+=== client
+
+TBD
+
+
+
+
+=== Client Action
+
+`[Service Studio]` an Action that runs in the client
+
+
+
+[%collapsible]
+.Example for "Client Action"
+====
+_Client Actions run logic in the user device. You can create Client Actions in two different scopes: in the scope of a Screen and in the client logic. -- Docs_
+====
+
+
+
+
+=== Container
+
+`[Service Studio]` widget that corresponds to the DIV HTML tag
+
+
+
+[%collapsible]
+.Example for "Container"
+====
+_From the Toolbox, drag the Container widget into the Main Content area of your application's screen and on the Properties tab, enter a name. -- Docs_
+====
+
+
+
+
+=== CP
+
+`[Platform Server]` cumulative patch
+
+
+=== CRM
+
+Customer Relationship Management
+
+
+
+[%collapsible]
+.Example for "CRM"
+====
+_Randstad developed a responsive CRM web app that turns every sales repâ€™s device into a portable sales office. -- Website_
+====
+
+
+=== CRUD
+
+create, read, update, and delete
+
+
+
+[%collapsible]
+.Example for "CRUD"
+====
+_In a situation where a continuous query is made to a set of Entities (read-only) that expose CRUD Actions it might be wiser to implement the cache access (reads and writes) inside the exposed CRUD operations, making it transparent for the consumers of those Entities. -- Docs_
+====
+
+
+
+TIP: Commonly used as acronym.
+
+
+=== CSS
+
+Cascading Style Sheets
+
+
+
+
+=== cumulative patch
+
+`[product release]` release with cumulative bug fixes and minor improvements of current functionalities, and doesn't include breaking changes
+
+
+
+[%collapsible]
+.Example for "cumulative patch"
+====
+_Updates to a new release or cumulative patch are optional (but recommended) for on-premise customers. -- Docs_
+====
+
+
+
+
+=== custom App Template
+
+`[Service Studio]` App Template that users add from external sources
+
+
+
+NOTE: You add custom App Templates by installing components from Forge, or by saving an App as an App Template.
+
+
+=== customer
+
+TBD
+
+
+
+
+=== DE
+
+`[Development Environment]` Development Environment
+
+
+
+TIP: Avoid. Use full form instead.
+
+
+
+
+=== Default Screen
+
+`[Service Studio]` Screen that loads first in a Module
+
+
+=== dependency
+
+in a module, an element of another module
+
+
+
+[%collapsible]
+.Example for "dependency"
+====
+_Adding a dependency just got a lot easier, in the Search in other Modules window, you can now quickly search for a dependency, then, when you find the one you're looking for, all you have to do is pick it and add! -- What's New_
+====
+
+
+
+
+=== design mode
+
+`[Service Studio]` see: preview
+
+
+
+
+=== developer
+
+`[Service Studio]` user of Service Studio whose primary goal is to develop or maintain OutSystems apps
+
+
+
+[%collapsible]
+.Example for "developer"
+====
+_Certified OutSystems Platform Developers will evolve through the different certification levels to master the OutSystems Platform technology.  -- Training_
+====
+
+
+=== development environment
+
+tools for developing an app
+
+
+
+[%collapsible]
+.Example for "development environment"
+====
+_Service Studio is the OutSystems low-code and visual development environment that allows you to... -- Docs
+
+Developers use a single, integrated development environment that covers the entire development lifecycle: development, quality assurance, deployment, monitoring and management. -- Evaluation Guide_
+====
+
+
+
+
+=== development environment
+
+`[Platform Server]` environment used for development only
+
+
+
+[%collapsible]
+.Example for "development environment"
+====
+_Can I do code analysis in multiple development environments? -- Docs
+
+For web applications, is there a way to update the development/test environment with the updated modules from the production environment to make them in sync? -- Forum_
+====
+
+
+
+
+=== Development Environment
+
+`[product release]` installer that contains Service Studio and Integration Studio
+
+
+
+NOTE: The fact that Development Environment installation contains the Service Studio IDE is sometimes confusing to users, as Service Studio is usually associated with the OutSystems development.
+
+
+
+[%collapsible]
+.Example for "Development Environment"
+====
+_Development Environment allows you to feel the speed of visual coding and a world of integrations by packing Service Studio and Integration Studio together. -- Downloads_
+====
+
+
+
+
+=== Dropdown
+
+`[Service Studio]` widget to create a drop-down list box from which users can select one option
+
+
+
+[%collapsible]
+.Example for "Dropdown"
+====
+_From the Toolbox, drag the Dropdown widget into the Main Content. -- Docs_
+====
+
+
+
+
+=== EAP
+
+`[product release]` Early Access Program
+
+
+
+
+=== Email
+
+`[Service Studio]` UI element for building emails
+
+
+
+NOTE: The platform generates email content based on the widgets in the Email.
+
+
+
+[%collapsible]
+.Example for "Email"
+====
+_In Service Studio, Email is a UI element that lets you design and manage the content of email messages. -- Docs_
+====
+
+
+
+
+=== Entity
+
+`[Service Studio]` element that implements a data model and corresponds to a table or a row in a table
+
+
+
+[%collapsible]
+.Example for "Entity"
+====
+_Right-click the Entities folder in the Multi-tree Navigator and select Add Entity. -- Docs_
+====
+
+
+
+
+=== Entity Attribute
+
+`[Service Studio]` element in an Entity that corresponds to a table header
+
+
+
+
+=== environment
+
+`[Platform Server]` one or more servers running Platform Server
+
+
+=== ESB
+
+Enterprise Service Bus
+
+
+
+
+=== Expression
+
+`[Service Studio]` widget for editing expressions
+
+
+
+[%collapsible]
+.Example for "Expression"
+====
+_Reference information on the Expression widget for displaying a text literal or an expression to calculate at runtime on the screen. -- Docs_
+====
+
+
+
+
+=== Expression
+
+`[Service Studio]` widget that shows text literal or result of an expression
+
+
+
+[%collapsible]
+.Example for "Expression"
+====
+_Expression widget allows you to display dynamic text based on the expression value. -- Forums_
+====
+
+
+
+
+=== extended product component
+
+`[product release]` a set of components that users need to install to the environment immediately after installing Platform Server
+
+
+
+NOTE: OutSystems UI is one one the extended product components.
+
+
+
+[%collapsible]
+.Example for "extended product component"
+====
+_In this step you install the extended product components, a set of OutSystems modules that provide essential features for development. -- Docs_
+====
+
+
+
+
+=== Extensibility Configurations
+
+`[Service Studio]` field to add a JSON object and change the configuration parameters of a Mobile App that are usually available outside UI
+
+
+
+NOTE: Available in LifeTime and Service Studio.
+
+
+
+[%collapsible]
+.Example for "Extensibility Configurations"
+====
+_The value of the Extensibility Configurations property of a mobile app module is a JSON schema. -- Docs_
+====
+
+
+
+TIP: Mind the plural, as that's what's in the interface.
+
+
+
+
+=== Filter
+
+`[Service Studio]` feature that lets developers control the data an Entity shows or an Aggregate returns
+
+
+
+[%collapsible]
+.Example for "Filter"
+====
+_When designing queries, you can add conditions to filter sets of records returned by aggregates to choose the database content you want to display. -- Docs_
+====
+
+
+
+
+=== Filter Condition
+
+`[Service Studio]` an expression in a Filter
+
+
+
+[%collapsible]
+.Example for "Filter Condition"
+====
+_Please add the filter condition in the source aggregate for this table. -- Forums_
+====
+
+
+
+
+=== Forge
+
+`[Forge]` public repository of components for use in OutSystems apps
+
+
+
+[%collapsible]
+.Example for "Forge"
+====
+_Use a Forge Component made by the community in your applications and accelerate your development process while adding functionality to your apps. -- Docs_
+====
+
+
+
+TIP: Note the examples of correct use:
+
+- Forge
+- OutSystems Forge 
+- the Forge repository
+- the OutSystems Forge repository
+
+
+
+
+=== Form
+
+`[Service Studio]` widget that groups and can validate a collection of input widgets
+
+
+
+[%collapsible]
+.Example for "Form"
+====
+_You can use a Form widget to allow end users to enter data and store it in database records. -- Docs_
+====
+
+
+
+
+=== GA
+
+`[product release]` general availability
+
+
+
+
+=== general availability
+
+`[product release]` development stage where release is available for public distribution and use
+
+
+
+[%collapsible]
+.Example for "general availability"
+====
+_We're excited to announce the general availability of Architecture Dashboard. -- What's New_
+====
+
+
+
+
+=== generally available
+
+`[product release]` See: general availability
+
+
+
+[%collapsible]
+.Example for "generally available"
+====
+_These features are released much more frequently, in smaller chunks, and before they're generally available. -- Docs_
+====
+
+
+
+
+=== Header Cell
+
+`[Service Studio]` in-widget placeholder in the Header Row in-widget placeholder
+
+
+
+NOTE: WIP
+
+
+
+
+=== Header Row
+
+`[Service Studio]` in-widget placeholder in the Table widget
+
+
+
+NOTE: WIP
+
+
+
+
+=== hotfix
+
+`[product release]` release built on demand for specific customers to unblock a critical issue
+
+
+
+[%collapsible]
+.Example for "hotfix"
+====
+_Hotfixes are private (not publicly available) and delivered to customers via the Product Support team. -- Docs_
+====
+
+
+
+
+=== hybrid update
+
+`[MABS]` type of mobile app update when the app updates without changes of the native shell on the device
+
+
+
+[%collapsible]
+.Example for "hybrid update"
+====
+_Hybrid updates are lightweight updates where the app itself downloads only the new app parts, without downloading and updating the native mobile shell. -- Docs_
+====
+
+
+
+
+=== If
+
+`[Service Studio]` widget that shows content based on a condition
+
+
+
+[%collapsible]
+.Example for "If"
+====
+_When using an If widget with False as condition, developers are presented with a friendly UI that allows them to hide placeholders. -- Docs_
+====
+
+
+
+
+=== in-widget placeholder
+
+`[Service Studio]` part of a widget that acts like a Placeholder, but it's limited to the parent widget or in-widget placeholder only
+
+
+
+NOTE: WIP. If you inspect a Table widget in Service Studio, you can see it contains the Header Row and the Row in-widget placeholders. If you add data to the Table, Service Studio inserts Header Cells and Row Cells, also in-widget placeholders, in the parent placeholders.
+
+
+
+
+=== Input
+
+`[Service Studio]` widget that lets users enter single-line textual data
+
+
+
+[%collapsible]
+.Example for "Input"
+====
+_Select the Input widget again, and on the Properties tab, in the Prompt property, enter the text you want displayed. -- Docs_
+====
+
+
+
+
+=== JS
+
+`[Service Studio]` JavaScript
+
+
+
+
+=== Label
+
+`[Service Studio]` widget that shows text you can associate with an input widget
+
+
+
+NOTE: Label contains a Text widget.
+
+
+
+[%collapsible]
+.Example for "Label"
+====
+_Label widget: behavior is similar to Expression (display dynamic content, evaluated when the widget is being rendered) but generates an HTML Label element. -- Forums_
+====
+
+
+
+
+=== Library
+
+`[OutSystems UI]` See: Library Module
+
+
+
+[%collapsible]
+.Example for "Library"
+====
+_When adding a new module in Service Studio, the list has Library._
+====
+
+
+
+
+=== LifeTime
+
+`[LifeTime]` OutSystems console for managing the settings of all environments and deploying apps across them
+
+
+
+
+=== List
+
+`[Service Studio]` widget that shows records in a list
+
+
+
+[%collapsible]
+.Example for "List"
+====
+_I am using a List widget (in mobile app) to display records from aggregate. -- Forums_
+====
+
+
+
+
+=== List Item
+
+`[Service Studio]` widget that shows one record and provides the swipe interaction
+
+
+
+[%collapsible]
+.Example for "List Item"
+====
+_Select the List Item inside the list and set the On Click event to navigate to the Search screen. -- Docs_
+====
+
+
+
+
+=== LT
+
+`[LifeTime]` LifeTime
+
+
+
+NOTE: Avoid. Use the full form instead.
+
+
+
+TIP: Avoid. Use full form instead.
+
+
+
+
+=== MABS
+
+`[MABS]` Mobile Apps Build Service
+
+
+
+[%collapsible]
+.Example for "MABS"
+====
+_In 2016 OutSystems released Mobile Apps Build Service (MABS), a fast, reliable and secure service for building native mobile apps. -- Blog_
+====
+
+
+
+
+=== major release
+
+`[product release]` release with significant new features, bug fixes, and potentially breaking changes
+
+
+
+[%collapsible]
+.Example for "major release"
+====
+_Major release. Due to the continuous delivery approach, this type of release is very infrequent. It only occurs when it's necessary to improve previous models and paradigms of usage. --  Docs_
+====
+
+
+
+
+=== manage dependencies
+
+`[Service Studio]` action to add, remove, or refresh a dependency
+
+
+
+[%collapsible]
+.Example for "manage dependencies"
+====
+_How to create references and manage dependencies to other "packages" is an important feature to understand. -- Learn_
+====
+
+
+
+
+=== Mobile App
+
+`[Service Studio]` App Type that can be compiled to a native mobile app
+
+
+
+
+=== Mobile Apps Build Service
+
+`[MABS]` OutSystems cloud service that compiles native mobile apps
+
+
+
+[%collapsible]
+.Example for "Mobile Apps Build Service"
+====
+_In 2016 OutSystems released Mobile Apps Build Service (MABS), a fast, reliable and secure service for building native mobile apps. -- Blog_
+====
+
+
+
+
+=== Mobile Module
+
+`[Service Studio]` type of Module for building Mobile Apps
+
+
+
+[%collapsible]
+.Example for "Mobile Module"
+====
+_Mobile Module -- Docs_
+====
+
+
+
+
+=== Module
+
+`[Service Studio]` the largest building element of an App
+
+
+
+NOTE: Modules are typically joined in an App with an Application Template.
+
+
+
+[%collapsible]
+.Example for "Module"
+====
+_Learn how to deploy a single application module, instead of all modules that make up an application. -- Docs_
+====
+
+
+
+
+=== module
+
+`[Service Studio]` See: Module
+
+
+
+
+=== Module Type
+
+`[Service Studio]` category that tells to which App Type a Module belongs to
+
+
+
+[%collapsible]
+.Example for "Module Type"
+====
+_Can anyone help me how to check the module type whether it is web responsive or web blank or extension or service. -- Forum 
+
+A Library is a module type that allows you to reduce the number of dependencies in a given environment. -- Docs_
+====
+
+
+=== native experience
+
+user experience related to the apps built specifically for one platform
+
+
+
+[%collapsible]
+.Example for "native experience"
+====
+_Build a mobile app: These are applications that users install on their phones, have access to the deviceâ€™s sensors, can work offline, and have a UX designed for a native experience. -- Evaluation guide
+
+Service Studio is being rebuilt to ensure you have a native experience whether you use macOS or Windows. -- Docs_
+====
+
+
+
+
+=== native mobile app
+
+`[MABS]` app that users can install on a mobile device like phone or tablet
+
+
+=== native mobile experience
+
+See: native experience
+
+
+
+
+=== native mobile shell
+
+`[MABS]` part of the mobile app that is responsible for interacting with the mobile device on the outside and OutSystems app code on the inside
+
+
+
+NOTE: MABS uses Apache Cordova to generate the native mobile shell.
+
+
+
+[%collapsible]
+.Example for "native mobile shell"
+====
+_You may see the names of these plugins in the native mobile shell logs. -- Mobile plugins_
+====
+
+
+
+
+=== native shell
+
+`[MABS]` See: native mobile shell
+
+
+
+
+=== non-Static Entity
+
+`[Service Studio]` Entity
+
+
+=== O11
+
+OutSystems 11
+
+
+=== OS11
+
+See: O11
+
+
+
+NOTE: Avoid. Use O11 instead.
+
+
+=== OutSystems
+
+the company name
+
+
+
+TIP: Mind the capitalization.
+
+
+=== OutSystems
+
+the OutSystems platform
+
+
+
+[%collapsible]
+.Example for "OutSystems"
+====
+_In OutSystems, you can create structured values by using a Structure.png Structure or a Record. -- Docs_
+====
+
+
+
+TIP: Preferred when you refer to the OutSystems platform.
+
+
+=== OutSystems
+
+the OutSystems platform
+
+
+
+[%collapsible]
+.Example for "OutSystems"
+====
+_By default, customers activate their subscription on the OutSystems Cloud and start developing and delivering applications immediately. But OutSystems was designed also for other clouds (private or public), on-premises or hybrid deployments. -- Evaluation Guide_
+====
+
+
+=== OutSystems language
+
+OutSystems programming language
+
+
+
+[%collapsible]
+.Example for "OutSystems language"
+====
+_Comprehensive reference of OutSystems language elements properties, APIs, and user interfaces. -- Docs_
+====
+
+
+=== OutSystems visual language
+
+OutSystems programming language
+
+
+
+[%collapsible]
+.Example for "OutSystems visual language"
+====
+_Expressiveness of the OutSystems visual language -- Evaluation Guide_
+====
+
+
+
+
+=== Phone App
+
+`[OutSystems UI]` built-in App Template for creating a Mobile App
+
+
+
+[%collapsible]
+.Example for "Phone App"
+====
+_Use the Phone App template to create native mobile applications and Progressive Web Applications (PWAs) optimized for mobile phone screen sizes. -- OutSystems UI_
+====
+
+
+
+
+=== Placeholder
+
+`[Service Studio]` element for defining reusable parts of UI in Blocks
+
+
+
+[%collapsible]
+.Example for "Placeholder"
+====
+_In the Title placeholder, enter the breadcrumb title (in this example, More Details) and drag an Icon widget into the Icon placeholder. -- Docs_
+====
+
+
+
+
+=== Platform Server
+
+`[Platform Server]` core server part of the OutSystems product
+
+
+
+NOTE: Platform Server orchestrates all runtime, deployment, and management activities for all applications.
+
+
+
+[%collapsible]
+.Example for "Platform Server"
+====
+_Since version 11.8.0, Platform Server is released first for OutSystems cloud, and 2 to 3 weeks later, it is available to download for self-managed configurations. -- Docs_
+====
+
+
+
+
+=== preview
+
+`[Service Studio]` design-time option in Service Studio that shows how a screen could look during runtime
+
+
+
+NOTE: Activate preview by clicking on the Preview icon in the upper-left corner of the editor.
+
+
+
+[%collapsible]
+.Example for "preview"
+====
+_Now, when opening a module in Service Studio, the Preview mode is turned off by default.  -- Release notes_
+====
+
+
+
+
+=== preview mode
+
+`[Service Studio]` See: preview
+
+
+
+
+=== Process
+
+`[Service Studio]` instance of Business Process
+
+
+
+[%collapsible]
+.Example for "Process"
+====
+_A business process is simply called a Process in OutSystems and is understood as the way that a particular task is carried out in your organization, such as handling invoices, processing orders, or handling complaints. -- Docs_
+====
+
+
+
+
+=== publish
+
+`[MABS]` make an app available in an app store
+
+
+
+NOTE: The most popular app stores are Google Play and Apple Store. Some customers have internal stores for employees only.
+
+
+
+[%collapsible]
+.Example for "publish"
+====
+_When the changes require an update of the entire app, you can still publish the app via the app store. -- Docs_
+====
+
+
+
+
+=== publish
+
+`[Service Studio]` compile and make available in the environment
+
+
+
+NOTE: (WIP What about solutions?) For modules that have a user interface, publishing the module is often the same as making the new version of the app available in the current environment -- for users to try out the app. The current environment is rarely a production environment, but a development or testing environment. To put the app to production, developers need to deploy it to the production environment by using LifeTime.
+
+
+
+[%collapsible]
+.Example for "publish"
+====
+_To publish the module, you will need to update your local module, save it locally with conflicts resolved, and then publish it. -- Docs_
+====
+
+
+=== QA
+
+quality assurance
+
+
+=== QA environment
+
+See: quality assurance environment
+
+
+
+[%collapsible]
+.Example for "QA environment"
+====
+_You should evaluate the benefit of having a QA environment against the characteristics of your LifeTime plugin and the requirement of your own application project. -- Docs_
+====
+
+
+=== quality assurance environment
+
+environment for pre-production testing
+
+
+
+[%collapsible]
+.Example for "quality assurance environment"
+====
+_When you are done developing your integration with an external database and you want to deploy the application to another Environment (e.g. quality assurance environment) check out this step by step guide. -- Docs_
+====
+
+
+
+
+=== Radio Group
+
+`[Service Studio]` widget to group one or more radio buttons to let users select a single option
+
+
+
+[%collapsible]
+.Example for "Radio Group"
+====
+_Let users select a single option from a group of choices, with the Radio Group widget. -- Docs_
+====
+
+
+=== React
+
+open-source web framework Reactive Web Apps and Mobile Apps are based on
+
+
+
+[%collapsible]
+.Example for "React"
+====
+_The UI is rendered in the client-side, and all screens, blocks, and widgets are generated as reusable React components. -- Blog_
+====
+
+
+
+TIP: React is a project maintained by Facebook and should not be confused with OutSystems Reactive Web App type of app.
+
+
+
+
+=== Reactive Module
+
+`[Service Studio]` type of module for building Reactive Web Apps
+
+
+
+[%collapsible]
+.Example for "Reactive Module"
+====
+_Is your problem with the reactive module or with the traditional web? -- Forum_
+====
+
+
+
+
+=== Reactive Web App
+
+`[OutSystems UI]` built-in App Template for creating a Reactive Web App
+
+
+
+[%collapsible]
+.Example for "Reactive Web App"
+====
+_If you're already on OutSystems 11, all you need to do is ensure you update to the latest version to start creating a new generation of web apps. Then, when creating a new app in Service Studio, just select the Reactive Web App option from the New Application wizard and you'll be working in this new model immediately. - Blog_
+====
+
+
+
+
+=== Reactive Web App
+
+`[OutSystems UI]` See: Reactive Module
+
+
+
+[%collapsible]
+.Example for "Reactive Web App"
+====
+_When adding a new module in Service Studio, the list has Reactive Web App._
+====
+
+
+
+
+=== Reactive Web App
+
+`[Service Studio]` an App Type
+
+
+
+[%collapsible]
+.Example for "Reactive Web App"
+====
+_In OutSystems, a Reactive Web App is an app with a responsive interface that runs in the browser. -- Docs_
+====
+
+
+
+
+=== release
+
+`[product release]` any release in a generic meaning of the word
+
+
+
+[%collapsible]
+.Example for "release"
+====
+_At OutSystems we are committed to supporting our customers and minimizing the impact of upgrades to new releases. We support each version of our product for a minimum of 2 years from the date of commercial release. -- Docs_
+====
+
+
+
+
+=== release
+
+`[product release]` make a product or a feature available for use
+
+
+
+[%collapsible]
+.Example for "release"
+====
+_These features are released much more frequently, in smaller chunks, and before they're generally available. -- Docs_
+====
+
+
+
+
+=== release
+
+`[product release]` release associated with a major release that can include new features or significant improvements, and potentially breaking changes
+
+
+
+[%collapsible]
+.Example for "release"
+====
+_My Platform Server version is 11.0.211.0 and I want to update a new release version to (Release Apr.2019 CP1): 11.0.424.0. What steps I need to follow to update this new release version in OutSystems Platform server? -- Forum_
+====
+
+
+
+
+=== responsive
+
+`[OutSystems UI]` that adapts well to different screen sizes
+
+
+
+[%collapsible]
+.Example for "responsive"
+====
+_There are different templates which offer a solution for every specific need, whether it is for different mobile devices, fully responsive or multichannel apps. -- Docs_
+====
+
+
+=== REST
+
+representational state transfer
+
+
+
+[%collapsible]
+.Example for "REST"
+====
+_Check how you can troubleshoot REST APIs by temporarily setting higher logging levels. -- Docs_
+====
+
+
+=== RESTful
+
+services that follow the REST architectural style
+
+
+
+[%collapsible]
+.Example for "RESTful"
+====
+_Customized URL for the method. Use it in order to follow RESTful principles identified by your organization. -- Docs_
+====
+
+
+
+
+=== Row
+
+`[Service Studio]` in-widget placeholder in the Table widget
+
+
+
+NOTE: WIP
+
+
+
+
+=== Row Cell
+
+`[Service Studio]` in-widget placeholder in the Row in-widget placeholder
+
+
+
+NOTE: WIP
+
+
+
+
+=== SC
+
+`[Service Center]` Service Center
+
+
+
+NOTE: Avoid. Use the full form instead.
+
+
+
+
+=== scaffolding
+
+`[Service Studio]` built-in accelerator to create UI or logic
+
+
+
+[%collapsible]
+.Example for "scaffolding"
+====
+_With scaffolding for Reactive Web Apps, creating List and Detail screens is even faster! Just drag an entity to any UI flow, and two new screens completed with working actions and validations will be ready to publish. -- Blog_
+====
+
+
+=== screen
+
+flat area of an electronic device where content shows; display
+
+
+
+
+=== Screen
+
+`[Service Studio]` element for defining pages in web apps or screens in mobile apps
+
+
+
+NOTE: Adding Screen to an App results in a screen/page once you run the app.
+
+
+
+[%collapsible]
+.Example for "Screen"
+====
+_The On Render event handler runs after each time the Screen or Block is rendered, i.e. whenever the Screen or Block is opened (right after the On Ready event handler execution) and after any change of the data of the Screen. -- Docs_
+====
+
+
+
+
+=== screen
+
+`[Service Studio]` rendered Screen, usually corresponding to a web page, on a device display
+
+
+
+[%collapsible]
+.Example for "screen"
+====
+_In a tablet, the Split Screen pattern splits the screen vertically in two independent panels. -- Docs_
+====
+
+
+
+
+=== Screen Action
+
+`[Service Studio]` a Server Action, in Traditional Web App, that runs in the context of a Screen or Web Block
+
+
+
+NOTE: There are no Screen Actions in Reactive Web Apps or Mobile Apps. Actions that run in the Screen or Block context of these apps are Client Actions.
+
+
+
+[%collapsible]
+.Example for "Screen Action"
+====
+_Screen Actions allow you to run logic when the user interacts with the screen, such as clicking on a button or a link. -- Docs_
+====
+
+
+
+
+=== Screen Aggregate
+
+`[Service Studio]` Aggregate running on the client side in a Screen or a Block
+
+
+
+NOTE: WIP. There is no Screen Aggregate as a distinct concept. This term appeared spontaneously and we're investigating it.
+
+
+
+TIP: If relevant, make sure it's clear you're referring to a client-side Aggregate attached to Screen or Block. If this is not relevant, use just Aggregate.
+
+
+
+
+=== Server Action
+
+`[Service Studio]` an Action that runs on the server
+
+
+
+[%collapsible]
+.Example for "Server Action"
+====
+_Server Action. Action that runs logic on the server side. -- Docs_
+====
+
+
+
+
+=== Service
+
+`[OutSystems UI]` See: Service Module
+
+
+
+[%collapsible]
+.Example for "Service"
+====
+_When adding a new module in Service Studio, the list has Service._
+====
+
+
+
+
+=== Service Center
+
+`[Service Center]` management console for an environment
+
+
+
+[%collapsible]
+.Example for "Service Center"
+====
+_Service Center provides a set of metrics regarding a specific environment. It provides access to application logs and errors, web and mobile requests, integration calls, business processes, and security audits. -- Docs_
+====
+
+
+
+
+=== Service Studio
+
+`[Service Studio]` desktop application to develop OutSystems apps
+
+
+
+[%collapsible]
+.Example for "Service Studio"
+====
+_"(...) Development Environment allows you to feel the speed of visual coding and a world of integrations by packing Service Studio and Integration Studio together." -- OutSystems website_
+====
+
+
+
+
+=== Service Studio Beta
+
+`[Service Studio]` beta release of Service Studio
+
+
+
+[%collapsible]
+.Example for "Service Studio Beta"
+====
+_From now on, you can give Theme Editor a go using Service Studio Beta, and change the color scheme, font, spacing, borders, shadows, and the login screens of your applications in less than a minute. -- Forum_
+====
+
+
+=== SOAP
+
+Simple Object Access Protocol
+
+
+
+[%collapsible]
+.Example for "SOAP"
+====
+_OutSystems generates documentation for an exposed SOAP Web Service when you publish its application module. -- Docs_
+====
+
+
+
+TIP: Commonly used as acronym.
+
+
+
+
+=== Sort
+
+`[Service Studio]` feature that lets developers sort the data an Entity shows or an Aggregate returns
+
+
+
+
+=== sort
+
+`[Service Studio]` ? feature to order records from an Entity
+
+
+
+
+=== SS
+
+`[Service Studio]` Service Studio
+
+
+
+NOTE: Avoid. Use the full form instead.
+
+
+
+
+=== Static Entity
+
+`[Service Studio]` Entity with immutable data
+
+
+
+[%collapsible]
+.Example for "Static Entity"
+====
+_The Records folder of the Static Entity holds the data, and the Attributes define the structure of the data.  -- Docs_
+====
+
+
+
+
+=== store-only update
+
+`[MABS]` type of mobile app update when the app updates fully by replacing the native shell on the device
+
+
+
+[%collapsible]
+.Example for "store-only update"
+====
+_Store-only updates require the download of the entire native build to the user devices. These are updates through Google Play or the Apple App Store, or a private store. -- Docs_
+====
+
+
+=== strong dependency
+
+type of dependency where modules are tightly-coupled
+
+
+
+[%collapsible]
+.Example for "strong dependency"
+====
+_Depending on the type of elements that you expose, OutSystems will generate a strong dependency or a weak dependency between your module and the consumer modules. -- Docs_
+====
+
+
+
+
+=== style sheet
+
+`[Service Studio]` one or more blocks of the CSS code
+
+
+
+[%collapsible]
+.Example for "style sheet"
+====
+_Theme Style Sheet -- Service Studio, window label
+
+Style Sheet -- Service Studio, property name_
+====
+
+
+
+
+=== Switch
+
+`[Service Studio]` widget that lets users toggle between two options
+
+
+
+[%collapsible]
+.Example for "Switch"
+====
+_Drag the Check Box or Switch widget from the toolbar into the Form. Bind the boolean variable to the widget in the Variable property. -- Docs_
+====
+
+
+
+
+=== Table
+
+`[Service Studio]` widget that shows data in a tabular layout
+
+
+
+[%collapsible]
+.Example for "Table"
+====
+_You can use the Table Widget to create a table on your app screens, when you want to show data in cells distributed in rows and columns. -- Docs_
+====
+
+
+
+
+=== Tablet App
+
+`[OutSystems UI]` built-in App Template for creating a Mobile App
+
+
+
+[%collapsible]
+.Example for "Tablet App"
+====
+_Use the Tablet App template to create native mobile applications and Progressive Web Applications (PWAs) optimized for tablet screen sizes. -- OutSystems UI_
+====
+
+
+
+
+=== Technical Preview
+
+`[product release]` feature that is available to users for testing purposes, but it's not generally available nor officially supported
+
+
+
+
+=== technical preview
+
+`[product release]` See: Technical Preview
+
+
+
+TIP: Don't capitalize when the meaning is generic.
+
+
+
+
+=== Text
+
+`[Service Studio]` widget that shows text
+
+
+
+[%collapsible]
+.Example for "Text"
+====
+_Text widget displays a static text in the UI. -- Forums_
+====
+
+
+
+
+=== Text Area
+
+`[Service Studio]` widget that lets users enter multiline text
+
+
+
+[%collapsible]
+.Example for "Text Area"
+====
+_Make sure the Text Area input has the Name property set (for example, myTextArea). -- Docs_
+====
+
+
+=== the OutSystems platform
+
+OutSystems
+
+
+
+[%collapsible]
+.Example for "the OutSystems platform"
+====
+_At the heart of the OutSystems platform are integrated tools and infrastructure that ensure modern, enterprise-grade applications are secure, resilient, cloud-ready, and built to scale. -- Website_
+====
+
+
+
+TIP: Use "the OutSystems platform" to highlight you're talking about a software platform. "OutSystems" is a preferred term.
+
+
+
+
+=== Traditional Module
+
+`[Service Studio]` type of module for building Traditional Web Apps
+
+
+
+[%collapsible]
+.Example for "Traditional Module"
+====
+_"I want to get translations from traditional module where I have the dictionary and translations in Multilingual folder, from the Reactive module where that functionality is not working in Outsystems. Is there any smart way to do that?" -- Forum_
+====
+
+
+
+
+=== Traditional Web
+
+`[OutSystems UI]` built-in App Template for creating a Traditional Web App
+
+
+
+
+=== Traditional Web App
+
+`[Service Studio]` an App Type
+
+
+=== UI
+
+user interface
+
+
+
+[%collapsible]
+.Example for "UI"
+====
+_By default, Global Exception Handler property of your module is set to the On Exception action of the "Common" UI Flow.  -- Docs_
+====
+
+
+
+
+=== UI Flow
+
+`[Service Studio]` element that groups Screens and Blocks
+
+
+
+
+=== UI Flows
+
+`[Service Studio]` folder in the Interface tab that groups UI elements in a Module
+
+
+
+NOTE: UI elements are instances of UI Flow and References. See: UI Flow
+
+
+
+[%collapsible]
+.Example for "UI Flows"
+====
+_The OnException action is available under UI Flows > Common in the Interface tab of Service Studio. -- Docs_
+====
+
+
+
+
+=== update
+
+`[MABS]` action to get an app more up to date
+
+
+
+
+=== update
+
+`[product release]` action to get a product more up to date with a release between major version releases
+
+
+
+[%collapsible]
+.Example for "update"
+====
+_Once the app is fully updated and the destination screen loads, the app notifies the user about the update with a feedback message. -- Docs_
+====
+
+
+
+
+=== upgrade
+
+`[product release]` action to replace a product with a newer major version of the same product
+
+
+
+
+=== Upload
+
+`[Service Studio]` widget to let users to select a file
+
+
+
+[%collapsible]
+.Example for "Upload"
+====
+_To upload a file in Reactive Web and Mobile apps: In Service Studio, in the Toolbox, search for Upload. -- Docs_
+====
+
+
+=== weak dependency
+
+type of dependency where modules are loosely-coupled
+
+
+
+[%collapsible]
+.Example for "weak dependency"
+====
+_Depending on the type of elements that you expose, OutSystems will generate a strong dependency or a weak dependency between your module and the consumer modules. -- Docs_
+====
+
+
+=== web app
+
+an app that runs in a web browser
+
+
+
+
+=== Web Block
+
+`[Service Studio]` See: Block
+
+
+
+[%collapsible]
+.Example for "Web Block"
+====
+_In a UI Flow, add a Block (in Reactive Web and Mobile Apps) or a Web Block (in Traditional Web Apps). -- Docs_
+====
+
+
+
+TIP: Use Web Block only when referring to Traditional Web Apps.
+
+
+
+
+=== Web Screen
+
+`[Service Studio]` See: Screen
+
+
+
+TIP: Use Web Screen only when referring to Traditional Web Apps.
+
